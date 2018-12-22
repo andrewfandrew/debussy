@@ -1,0 +1,49 @@
+<?php
+
+/**
+ * @file
+ * Contains a_paris_en_france.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ *
+ *  * Through hook_help(), a module can make documentation available to the user
+ * for the module as a whole or for specific routes. Where the help appears
+ * depends on the $route_name specified.
+ *
+ * Help text will be displayed in the region designated for help text. Typically
+ * this is the 'Help' region which can be found at admin/structure/block.
+ *
+ * The help text will appear on the a-paris-en-france/tables page.
+ *
+ * The second example text will be available on the admin help page (admin/help)
+ * in the list of help topics using the name of the module. To specify help in
+ * the admin section combine the special route name of 'help.page' with the
+ * module's machine name, as in 'help.page.a_paris_en_france' below.
+ *
+ * See the Help text standard page for the proposed format of help texts.
+ *
+ * @see https://www.drupal.org/documentation/help-text-standards
+ *
+ * @see hook_help()
+ *
+ */
+function a_paris_en_france_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'a_paris_en_france.explanation':
+      return t('This is some help text for the explanation page.');
+
+    case 'a_paris_en_france.tables':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module uses render API to display tables') . '</p>';
+      return $output;
+
+
+    default:
+  }
+}
+

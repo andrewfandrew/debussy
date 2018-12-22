@@ -1,0 +1,14 @@
+{
+  "name": "drupal/a_paris_en_france",
+  "type": "drupal-module",
+  "description": "My Awesome Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/a_paris_en_france",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/a_paris_en_france",
+    "source": "http://cgit.drupalcode.org/a_paris_en_france"
+  },
+  "require": { }
+}

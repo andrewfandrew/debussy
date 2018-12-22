@@ -1,0 +1,7 @@
+name: Lautrec
+type: module
+description: 'Creates tablular forms and stores data in the database'
+package: Debussy
+core: 8.x
+dependencies:
+  - drupal:node

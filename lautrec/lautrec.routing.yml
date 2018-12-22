@@ -1,0 +1,15 @@
+lautrec.description:
+  path: '/debussy/lautrec'
+  defaults:
+    _controller: '\Drupal\lautrec\Controller\LautrecController::explanation'
+    _title: 'Tabledrag overview'
+  requirements:
+    _permission: 'access content'
+
+lautrec.simple_form:
+  path: '/debussy/lautrec/row'
+  defaults:
+    _form: '\Drupal\lautrec\Form\TableDragExampleSimpleForm'
+    _title: 'Simple rows tabledrag'
+  requirements:
+    _permission: 'access content'

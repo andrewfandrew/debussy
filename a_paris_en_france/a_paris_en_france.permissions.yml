@@ -1,0 +1,11 @@
+# Since the access to our new custom pages will be granted based on special
+# permissions, we need to define what those permissions are here. This ensures
+# that they are available to enable on the permissions administration pages.
+
+'access tables page':
+  title: Access tables page
+  description: Allow users to access tables page
+
+'access A Paris En France arguments page':
+  title: Access page A Paris En France with arguments
+  description: Allow users to access A Paris En France page with arguments

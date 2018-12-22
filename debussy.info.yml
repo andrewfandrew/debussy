@@ -1,0 +1,6 @@
+name: Debussy
+type: module
+description: "Using some of the Drupal 8 API's"
+package: Debussy Modules
+core: 8.x
+

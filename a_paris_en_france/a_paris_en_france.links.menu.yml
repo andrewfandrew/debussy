@@ -1,0 +1,19 @@
+a_paris_en_france.explanation:
+  title: A Paris en France
+  route_name: a_paris_en_france.explanation
+  expanded: true
+
+a_paris_en_france.tables:
+  title: Tables
+  route_name: a_paris_en_france.tables
+  parent: a_paris_en_france.explanation
+
+a_paris_en_france.relative_pronouns:
+  title: Relative pronouns
+  route_name: a_paris_en_france.relative_pronouns
+  parent: a_paris_en_france.explanation
+
+
+# You cannot define a menu link for the a_paris_en_france_arguments route, because it
+# requires path arguments.
+

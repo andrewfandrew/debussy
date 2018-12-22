@@ -1,0 +1,35 @@
+a_paris_en_france.explanation:
+  path: '/a-paris-en-france'
+  defaults:
+    _controller: '\Drupal\a_paris_en_france\Controller\ExplanationController::explanation'
+    _title: 'Explanation'
+  requirements:
+    _permission: 'access content'
+
+a_paris_en_france.tables:
+  path: '/a-paris-en-france/tables'
+  defaults:
+    _controller: '\Drupal\a_paris_en_france\Controller\TablesController::tables'
+    _title: 'Tables page'
+  requirements:
+    _permission: 'access content'
+
+a_paris_en_france.relative_pronouns:
+  path: '/a-paris-en-france/relative-pronouns'
+  defaults:
+    _controller: '\Drupal\a_paris_en_france\Controller\RelativePronounsController::relative_pronouns'
+    _title: 'Relative pronouns'
+  requirements:
+    _permission: 'access content'
+
+
+# Since the parameters are passed to the function after the match, the function
+# can do additional checking or make use of them before executing the callback
+# function. The placeholder names "first" and "second" are arbitrary but must
+# match the variable names in the callback method, e.g. "$first" and "$second".
+#a_paris_en_france.arguments:
+#  path: '/a_paris_en_france/arguments/{first}/{second}'
+#  defaults:
+#    _controller: '\Drupal\a_paris_en_france\Controller\AParisEnFranceController::arguments'
+#  requirements:
+#    _permission: 'access arguments page'

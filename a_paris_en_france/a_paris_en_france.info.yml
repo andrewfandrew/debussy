@@ -1,0 +1,7 @@
+name: 'A Paris en France'
+type: module
+description: 'This creates pages with menu items and render arrays e.g. draggable table'
+core: 8.x
+package: Debussy
+dependencies:
+  - drupal:node

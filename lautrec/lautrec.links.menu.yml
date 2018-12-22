@@ -1,0 +1,13 @@
+lautrec.explanation:
+  title: Lautrec Overview
+  route_name: lautrec.explanation
+  expanded: TRUE
+
+lautrec.simple_form:
+  title: Simple rows
+  route_name: lautrec.simple_form
+  parent: lautrec.explanation
+  weight: -1
+
+
+
